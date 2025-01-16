@@ -1,0 +1,50 @@
+body {
+    background-color: #FFFFFF; /* White background */
+    color: #666666;           /* Text color */
+    font-family: Verdana, Arial, sans-serif; /* Font stack */
+}
+
+header {
+    background-color: #003058;
+    color: #FFFFFF;
+    font-style: Georgia;
+}
+
+header h1 {
+    line-height: 140%; /* Configures 140% line-height */
+    padding: 0.5rem;   /* Adds padding of 0.5 rem (8px by default) */
+}
+
+nav{
+    font-weight: bold;
+    background-color: #F3F3F3;
+}
+
+h2 {
+    color: #424242;
+    font-style: Georgia;
+}
+
+
+dt {
+    color: #003058;
+    font-weight: bold;
+}
+
+.ut {
+    color: #BA1C21;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 0.7rem; /* Small font size */
+      font-style: italic; /* Italic text */
+      text-align: center; /* Center-aligns the text */
+}
+
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
