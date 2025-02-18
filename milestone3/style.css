@@ -1,39 +1,49 @@
 #wrapper {
     display: grid;
-    grid-template-columns: minmax(0px, 50px) repeat(6, minmax(0, 175px)) minmax(0px, 50px);
-}
-
-#homeWrapper {
-    height: 200px;
-    display: grid;
-    grid-column: 3 / -3;
-    background-color: #0000ff;
-    opacity: 30%;
+    grid-template-columns: minmax(0, 1fr) repeat(6, minmax(0, 2fr)) minmax(0, 1fr);
 }
 
 #imgWrapper {
-    display:grid;
-    height: 200px;
+    height: 300px;
     grid-column: 1 / -1;
     background-color: #c600cd;
     opacity: 30%;
 }
 
-main {
+#homeWrapper {
+    height: 500px;
+    grid-column: 2 /  -2;
+    background-color: #0000ff;
+    opacity: 30%;
+}
+
+#leftSpaceWrapper {
+    height: 500px;
+    grid-column: 1 /  2;
+    background-color: #d0ff00;
+    opacity: 30%;
+}
+
+#rightSpaceWrapper {
+    height: 500px;
+    grid-column: 8 /  -1;
+    background-color: #d0ff00;
     opacity: 30%;
 }
 
 header {
-    grid-column: 1 / -1;
-    background-color: #ff0000;
-    opacity: 30%;
     height: 100px;
+    grid-column: 1 /  -1;
+    background-color: #00ff4c;
+    opacity: 30%;
 }
 
 footer {
-    grid-column: 1 / -1;
-    background-color: #00ff26;
-    color: rgb(98, 110, 21);
-    opacity: 30%;
     height: 100px;
+    grid-column: 1 /  -1;
+    background-color: #00d5ff;
+    opacity: 30%;
 }
+
+
+
