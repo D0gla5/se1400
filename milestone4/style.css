@@ -141,7 +141,7 @@ br {
 }
 
 .menu-icon {
-    display: block; /* Hidden by default */
+    display: block; 
     width: 30px;
     margin: 15px 0px;
 }
