@@ -176,4 +176,11 @@ footer a {
     #wrapper {
         grid-template-columns: none;
     }
+    #imgWrapper {
+        grid-column: none;
+    }
+    #greyBox {
+        max-width: 80%;
+        margin: 50px auto;
+    }
 }
