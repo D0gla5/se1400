@@ -179,10 +179,11 @@ footer a {
     }
     #imgWrapper {
         grid-column: none;
+        display: inline-block;
     }
     #greyBox {
         max-width: 80%;
-        margin: 100px auto;
+        margin: 75px auto;
     }
     #greyBox h2 {
         margin: 0;
