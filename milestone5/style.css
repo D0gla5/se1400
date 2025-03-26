@@ -176,6 +176,7 @@ footer a {
     #wrapper {
         grid-template-columns: none;
         display: block;
+        width: 100%;
     }
     #imgWrapper {
         grid-column: none;
