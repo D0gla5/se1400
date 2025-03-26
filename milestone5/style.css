@@ -175,12 +175,17 @@ footer a {
     }
     #wrapper {
         grid-template-columns: none;
+        display: block;
     }
     #imgWrapper {
         grid-column: none;
     }
     #greyBox {
         max-width: 80%;
-        margin: 50px auto;
+        margin: 100px auto;
+    }
+    #greyBox h2 {
+        margin: 0;
+        padding: 10px 0 0 0;
     }
 }
