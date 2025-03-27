@@ -194,11 +194,18 @@ footer a {
     }
 
     #flex-container img {
-        width: 85%;
+        width: 55px;
         height: auto;
+        padding: auto;
     }
 
     #flex-container div p {
-        font-size: 10px;
+        font-size: 12px;
+        padding: 0;
+    }
+    #content-container div img {
+        float: none;
+        width: 100%;
+        padding: 10px 0;
     }
 }
