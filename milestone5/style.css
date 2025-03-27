@@ -184,7 +184,7 @@ footer a {
     }
     #greyBox {
         max-width: 80%;
-        margin: 75px auto;
+        margin: 75px auto 0 auto;
         height: 400px;
         overflow: auto;
     }
