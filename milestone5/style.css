@@ -193,8 +193,15 @@ footer a {
         padding: 10px 0 0 0;
     }
 
-    #flex-container img {
-        width: 55px;
+    #flex-container {
+        display: flex;
+        justify-content: center; /* Centers the items horizontally */
+        align-items: center; /* Ensures vertical centering as well */
+        flex-wrap: wrap;
+            }
+
+    #flex-container div img {
+        width: 85%;
         height: auto;
         padding: auto;
     }
