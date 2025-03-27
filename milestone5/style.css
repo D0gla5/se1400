@@ -185,9 +185,20 @@ footer a {
     #greyBox {
         max-width: 80%;
         margin: 75px auto;
+        height: 400px;
+        overflow: auto;
     }
     #greyBox h2 {
         margin: 0;
         padding: 10px 0 0 0;
+    }
+
+    #flex-container img {
+        width: 85%;
+        height: auto;
+    }
+
+    #flex-container div p {
+        font-size: 10px;
     }
 }
