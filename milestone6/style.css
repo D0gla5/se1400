@@ -108,13 +108,15 @@
 
 nav {
     grid-column: 1 / -1;
-    
+    position: fixed;
+
 }
 
 nav ul {
     margin: 0;
     padding: 0;
     background-color: #11118F;
+
 }
 
 nav ul li{
@@ -135,6 +137,11 @@ nav ul li a{
     font-size: 20px;
     text-decoration: none;
     margin: 0px 5px;
+}
+
+.dropdown {
+    background-color: #333;
+    display: none;
 }
 
 header {
@@ -179,7 +186,6 @@ footer a {
     width: 30px;
     margin: 15px 0px;
     cursor: pointer;
-
 }
   
 .bar {
@@ -188,17 +194,6 @@ footer a {
     background-color: #ffffff;
     margin: 5px;
 }  
-
-.menu {
-    display: flex;
-    background-color: #333;
-}
-
-.dropdown {
-    display: none;
-    position: absolute;
-    width: 100%;
-}
 
 @media screen and (max-width: 992px) {
     #wrapper {
@@ -229,8 +224,8 @@ footer a {
 
     #flex-container {
         display: flex;
-        justify-content: center; /* Centers the items horizontally */
-        align-items: center; /* Ensures vertical centering as well */
+        justify-content: center; 
+        align-items: center;
         flex-wrap: wrap;
     }
 
@@ -248,5 +243,32 @@ footer a {
         float: none;
         width: 100%;
         padding: 10px 0;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+        position: none;   
+        background-color: #11118F;
+
+    }
+
+    nav ul {
+    }
+
+    nav ul li{
+        width: 100%;
+        text-align: center;
+        display: inline;
+        justify-content: center;
+        background-color: red;
     }
 }
