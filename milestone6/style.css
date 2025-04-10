@@ -108,6 +108,25 @@
 
 nav {
     grid-column: 1 / -1;
+    
+}
+
+nav ul {
+    margin: 0;
+    background-color: #11118F;
+}
+
+nav ul li{
+    padding: 10px;
+    list-style: none;
+    background-color: #333;
+}
+
+nav ul li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
 }
 
 header {
