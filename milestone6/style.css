@@ -113,20 +113,28 @@ nav {
 
 nav ul {
     margin: 0;
+    padding: 0;
     background-color: #11118F;
 }
 
 nav ul li{
     padding: 10px;
     list-style: none;
-    background-color: #333;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+nav ul li:hover{
+    background-color: #6d6dd3;
+    cursor: pointer;
 }
 
 nav ul li a{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 20px;
     text-decoration: none;
+    margin: 0px 5px;
 }
 
 header {
@@ -170,6 +178,8 @@ footer a {
     display: block; 
     width: 30px;
     margin: 15px 0px;
+    cursor: pointer;
+
 }
   
 .bar {
@@ -186,6 +196,8 @@ footer a {
 
 .dropdown {
     display: none;
+    position: absolute;
+    width: 100%;
 }
 
 @media screen and (max-width: 992px) {
