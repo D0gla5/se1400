@@ -107,7 +107,7 @@
 }
 
 nav {
-    grid-column: 1 / -1;
+    grid-column: 2 / -2;
     position: fixed;
 
 }
@@ -115,15 +115,17 @@ nav {
 nav ul {
     margin: 0;
     padding: 0;
+    display: flex;
     background-color: #11118F;
 
 }
 
 nav ul li{
-    padding: 10px;
-    list-style: none;
+    width: 100%;
+    text-align: center;
     transition: background-color 0.3s ease-in-out;
-
+    list-style: none;
+    padding: 10px;
 }
 
 nav ul li:hover{
@@ -140,8 +142,11 @@ nav ul li a{
 }
 
 .dropdown {
-    background-color: #333;
-    display: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: static;
 }
 
 header {
@@ -182,7 +187,7 @@ footer a {
 }
 
 .menu-icon {
-    display: block; 
+    display: none; 
     width: 30px;
     margin: 15px 0px;
     cursor: pointer;
@@ -246,29 +251,27 @@ footer a {
     }
 
     .menu-icon {
-        display: none;
+        display: block;
     }
 
     .dropdown {
-        display: block;
+        display: none;
         padding: 0;
         margin: 0;
+        width: 100%;
     }
 
     nav {
-        position: none;   
         background-color: #11118F;
 
     }
 
     nav ul {
+        display: block;
     }
 
     nav ul li{
         width: 100%;
-        text-align: center;
-        display: inline;
-        justify-content: center;
-        background-color: red;
+        text-align: left;
     }
 }
