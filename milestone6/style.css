@@ -10,6 +10,13 @@
     background-size: cover;
 }
 
+#aboutImg {
+    height: 500px;
+    grid-column: 1 / -1;
+    background-image: url(HomeImg.jpg);
+    background-size: cover;
+}
+
 #greyBox {
     background-color: rgb(14, 22, 75, 0.5);
     max-width:60%;
@@ -30,6 +37,9 @@
 #homeWrapper {
     grid-column: 2 /  -2;
     background-color: #9cb8ff75;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+
 }
 
 #leftSpaceWrapper {
@@ -72,10 +82,6 @@
     grid-column: -2 / 2
 }
 
-#content-container div {
-    padding: 20px;
-}
-
 #chipImg {
     width: 280px;
     height: 200px;
@@ -94,6 +100,13 @@
     display: flex;
 }
 
+#premImg {
+    float: left;
+    height: 100px;
+    width: 100px;
+    padding-right: 20px;
+}
+
 #footerContainer {
     display: flex;
     justify-content: center;
@@ -106,9 +119,22 @@
     padding: 20px;
 }
 
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    grid-column: 2 /  -2;
+}
+
+label, button {
+    padding: auto;
+    display: block;
+}
+
 nav {
-    grid-column: 2 / -2;
-    position: fixed;
+    background-color: #11118F;
+    grid-column: 1 / -1;
+    position: sticky;
+    top: 0;
 
 }
 
@@ -116,8 +142,6 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    background-color: #11118F;
-
 }
 
 nav ul li{
@@ -136,17 +160,13 @@ nav ul li:hover{
 nav ul li a{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     margin: 0px 5px;
 }
 
-.dropdown {
+#dropdownMenu {
     display: block;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    position: static;
 }
 
 header {
@@ -199,6 +219,38 @@ footer a {
     background-color: #ffffff;
     margin: 5px;
 }  
+
+.bold {
+    font-weight: bold;
+}
+
+.feedback {
+    background-color: white;
+    border: 2px solid #11118F;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+hr {
+    border: 2px;
+    height: 10px;
+    width: 100%;
+    border-color: #ff0000;
+    background-color: #ff0000;
+}
+
+#contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#contact-container div {
+    padding: 0 20px;
+    float: right;
+    width: 50%;
+}
 
 @media screen and (max-width: 992px) {
     #wrapper {
@@ -254,7 +306,7 @@ footer a {
         display: block;
     }
 
-    .dropdown {
+    #dropdownMenu {
         display: none;
         padding: 0;
         margin: 0;
@@ -263,6 +315,7 @@ footer a {
 
     nav {
         background-color: #11118F;
+        position: static;
 
     }
 

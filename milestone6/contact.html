@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NxgenGourmet</title>
+</head>
+<body>
+    <header>
+        <div id ="menu-container">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div id="logo"> 
+                <h3><a href="index.html">NxgenGourmet</a></h3>
+            </div>
+            <div class="search-icon" onclick="">
+                <img src="magnify-glass.png" alt="Search" id="search-img">
+            </div>
+        </div>
+    </header>
+    <div id="wrapper">
+    <nav>
+        <div id="dropdownMenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="policy.html">Privacy-Policy</a></li>
+        </ul>
+        </div>
+    </nav>
+    
+    <div id="leftSpaceWrapper"></div>
+    <div id="homeWrapper">
+        <div id="contact-container">
+            <div>
+                <h2>Contact</h2>
+                <p>We’re available through two easy options: email and phone. You can reach us by emailing support@yourshop.com for any questions, comments, or order-related issues. Prefer to speak with someone directly? Give us a call at (123) 456-7890 during our business hours: Monday through Friday, 9am–5pm (EST). Every message or call is handled with care, and we’re here to help make your shopping experience as smooth as possible. Whether it's a quick question or detailed feedback, we’re ready to listen and respond.
+
+                </p>
+                <form class="feedback" action="/submit-feedback" method="POST">
+                    <h2>We’d love your feedback!</h2>
+                
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                
+                    <label for="message">Suggestions or Comments</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell us what you think..."></textarea>
+                
+                    <button type="submit">Submit Feedback</button>
+                </form>
+            </div>
+            <div>
+                <h2>What to expect:</h2>
+                <p>We’re available through two easy options: email and phone. You can reach us by emailing support@yourshop.com for any questions, comments, or order-related issues. Prefer to speak with someone directly? Give us a call at (123) 456-7890 during our business hours: Monday through Friday, 9am–5pm (EST). Every message or call is handled with care, and we’re here to help make your shopping experience as smooth as possible. Whether it's a quick question or detailed feedback, we’re ready to listen and respond.
+
+                </p>
+            </div>
+        </div>
+    </div>  
+    <div id="rightSpaceWrapper"></div>
+    </div>
+    <footer>
+        <div id="footerContainer">
+            <div id="footerItem"> 
+                <a href="index.html">Home</a> &nbsp;
+                <a href="about.html">About</a> &nbsp;
+                <a href="shop.html">Shop</a> &nbsp;
+                <a href="contact.html">Contact</a> &nbsp;
+                <a href="policy.html">Privacy-Policy</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
