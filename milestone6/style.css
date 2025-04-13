@@ -133,9 +133,6 @@ label, button {
 nav {
     background-color: #11118F;
     grid-column: 1 / -1;
-    position: sticky;
-    top: 0;
-
 }
 
 nav ul {
@@ -252,7 +249,9 @@ li {
     padding: 10px;
 }
 
-
+#search-input {
+    display: none;
+}
 
 @media screen and (max-width: 992px) {
     #wrapper {

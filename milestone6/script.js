@@ -9,3 +9,15 @@ function toggleMenu() {
       menu.style.display = 'none';   // Hide the menu
   }
 }
+
+function toggleSearch() {
+  const searchInput = document.getElementById('search-input');
+
+  if (searchInput.style.display === 'none' || searchInput.style.display === '') {
+    searchInput.style.display = 'inline-block';
+    searchInput.focus();
+  } else {
+    searchInput.style.display = 'none';
+  }
+}
+
