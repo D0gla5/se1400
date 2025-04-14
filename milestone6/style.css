@@ -249,6 +249,19 @@ footer a {
     grid-template-columns: repeat(3, 1fr);
 }
 
+#shop-container div {
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+#shop-container div img{
+    width: 90%;
+    height: auto;
+    border: #000 solid 3px;
+    border-radius: 5px;
+}
+
 li {
     list-style: none;
 }
