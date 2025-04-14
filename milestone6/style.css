@@ -20,6 +20,7 @@
 #greyBox {
     background-color: rgb(14, 22, 75, 0.5);
     max-width:60%;
+    height: 300px;
     margin: 100px auto;
     text-align: center;
     color: white;
@@ -304,6 +305,14 @@ hr {
 @media screen and (max-width: 992px) {
     #wrapper {
         grid-template-columns: 1fr repeat(6, 128px) 1fr;
+    }
+
+    #greyBox {
+        height: auto;
+    }
+
+    #greyBox p {
+        font-size: 16px;
     }
 }
 
