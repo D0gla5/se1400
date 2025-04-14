@@ -12,10 +12,12 @@ function toggleMenu() {
 
 function toggleSearch() {
   const searchInput = document.getElementById('search-input');
+  const searchImg = document.getElementById('search-img');
 
   if (searchInput.style.display === 'none' || searchInput.style.display === '') {
-    searchInput.style.display = 'inline-block';
+    searchInput.style.display = 'block';
     searchInput.focus();
+    searchImg.style.display = 'none';
   } else {
     searchInput.style.display = 'none';
   }

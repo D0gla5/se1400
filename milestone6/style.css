@@ -82,7 +82,7 @@
     grid-column: -2 / 2
 }
 
-#chipImg {
+#shipImg {
     width: 280px;
     height: 200px;
     float: right;
@@ -288,6 +288,8 @@ li {
 #search-input {
     display: none;
     align-items: center;
+    padding: 5px;
+    margin: 20px 0;
 }
 
 hr {
@@ -344,6 +346,11 @@ hr {
         padding: 10px 0;
     }
 
+    #contact-container {
+        display: block;
+    }
+
+
     .menu-icon {
         display: block;
     }
@@ -373,4 +380,5 @@ hr {
     hr {
         display: block;
     }
+
 }
