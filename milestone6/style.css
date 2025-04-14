@@ -146,7 +146,7 @@ nav ul li{
     text-align: center;
     transition: background-color 0.3s ease-in-out;
     list-style: none;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 nav ul li:hover{
@@ -244,9 +244,13 @@ footer a {
     text-align: center;
 }
 
+#shop-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 li {
     list-style: none;
-    padding: 10px;
 }
 
 #search-input {
