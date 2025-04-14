@@ -129,6 +129,9 @@ h4 {
 
 label, button, input {
     padding: auto;
+}
+
+#contact-container form label, #contact-container form input, #contact-container form textarea {
     display: block;
 }
 
