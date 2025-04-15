@@ -1,6 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #wrapper {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) repeat(6, minmax(0, 2fr)) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) repeat(6, minmax(0, 175px)) minmax(0, 1fr);
 }
 
 #imgWrapper {
